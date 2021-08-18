@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  
+<title>Signup</title>
+<link rel="short icon" 
+type="image/png" 
+href="file:///C:/Users/new/Desktop/all%20niki/circle-cropped.png">
+
+<head>  
+    <link href="my.css" rel="stylesheet">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+
+<div class="can">
+<form>
+<label>Email</label>
+<input type="email" name="Username" placeholder="Enter Username" required>
+</br>
+<label>New Password</label>
+<input type="password" name="password" placeholder="Enter password" required >
+</br>
+
+</form>
+
+<form id="bye" action="SpeedHandsgaming.html">
+    <input type="submit" value="Sign Up" />
+</form>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+</div>
+</body>
+</html>   

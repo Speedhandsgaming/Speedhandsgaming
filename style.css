@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+body{
+  background-color: rgb(0, 0, 255,0.80);
+}
+.hey{
+  margin: 0;
+  padding: 0;
+}
+#section1{
+  height: 90vh;
+  width: 100%;
+  background-image: url(file:///C:/Users/new/Downloads/Speedhandsgaming.png);
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+#che{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: rgb(255, 0, 0);
+  font-size: 75px;
+  font-family: 'poppins';
+  text-align: center;
+    }
+
+  
+Marquee {
+  color:rgb(255, 145, 0); 
+  font-size:40px;
+  font-family: 'Akaya Kanadaka', cursive;
+  }
+  
+  hr{
+    height: 5px;
+    background-color: #44d800;
+  }
+  
+  a:link {
+    color: rgb(0, 255, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+     img.img1 {
+    height: 300px;
+    min-width: 1850px ;
+    min-height: 300px;
+    border-radius: 5px;
+  
+  
+  }
+  
+   p.p1 {
+   color: rgb(0, 255, 179);
+   font-size: 50px;   
+  font-family:   cursive;
+  text-align: center;
+  line-height: 0.8;
+  }
+  
+   p.p2{
+   color: rgb(255, 0, 0);
+   font-size: 40px;   
+  font-family:  cursive;
+  text-align: center;
+  line-height: 0.8;
+  }
+  
+   p.p3{
+    color: rgb(255, 217, 0);
+    font-size: 40px;   
+  font-family: cursive;
+  text-align: center;
+  line-height: 0.8;
+  }
+  
+   p.p4{
+    color: rgb(123, 255, 0);
+    font-size: 40px;   
+  font-family :cursive;
+  text-align: center;
+  line-height: 0.8;
+  }
+  
+  #img3{
+    float: right;
+    height: 375px;
+  }
+  
+  #img4{
+    float: left;
+    height: 375px;
+ 
+  }
+
+#center{
+  text-align: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+div.pari1  {
+  border: 5px rgb(255, 0, 0) solid;
+  padding: 9px;
+  display: block;  
+  
+}  
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 36px;
+  height: 85px;
+  line-height: 85px;
+  background-color: #0084ff;
+  font-family:  Tahoma;
+}
+
+li{
+  float: right;
+  padding-bottom: 1px; 
+}
+
+.logo img{
+  float:left;
+  padding-left: 20px;
+  padding-top: 5.5px;
+}
+
+a.web{
+  display: block;
+  padding: 0 28px;
+  color: rgb(255, 255, 255);
+  text-decoration:none;
+}
+
+a.web:hover{
+  background-color: #00f7ff;
+}
+
+#active{
+  background-color: #9015e2;
+  border:  #00f7ff;
+}
+
+#about{
+text-align: center;
+}
+
+#img5{
+  border-radius: 30px;
+}
+
+#Aboutme{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Akaya Kanadaka', cursive;
+  color: #15dbe2;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+p.p100{text-align: center;
+text-align: center;
+font-size: 45px;
+font-family: verdana;
+color: powderblue;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#15dbe2),
+  to(#0084ff));
+  box-shadow: inset 2px 2px rbga(255,255,255,0.25); inset :-2px -2px -2px
+rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#15dbe2),
+  to(#a707f1));
+  box-shadow: inset 2px 2px rbga(255,255,255,0.25), inset -2px -2px -2px
+rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-track{
+  background: linear-gradient(to right, #000000, #000000 1px, #000000 1px, #000000);
+}
+
+.centered {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'poppins';
+  color:#44d800;
+}
+
+#discord {
+  color: #ff9100;
+  background-color: transparent;
+  text-decoration: none;
+  border-top: 5px;
+}
+
+#discord:hover{
+  color: #ff0000;
+}
+
+#span1{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+#bla{
+  text-align: center;
+}
+
+#op{
+  border: 5px #ff00c8 solid;
+  border-radius: 10px;
+}
+
+.html .body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.cano{
+  background: rgba(255, 192, 203, 0.664);
+  width: 500px;
+  height: 550px;
+  padding: 15px;
+  margin: auto;
+  font-size: 30px;
+  font-family: 'Poppins';
+  color: blueviolet;
+  border-radius: 20px;
+  background-color: tomato;
+  }
+
+  input[type=text], input[type=password], input[type=email]{
+      width: 100%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      margin: 8px 0;
+      font-family: 'Akaya Kanadaka', cursive;
+      font-size: 25px;
+  }
+       span{
+           font-size: 18px;
+       }
+  input[type=submit]{
+      background: green;
+      color: whitesmoke;
+      border: none;
+      padding: 15px;
+      font-family: 'Akaya Kanadaka', cursive;
+      font-size: 2em;
+      margin: 8px 0;
+      text-align: center;
+      width: 100%;
+      font-size: 30px;}
+

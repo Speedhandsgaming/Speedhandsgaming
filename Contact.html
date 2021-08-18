@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+
+<title>Contact</title>
+<link rel="short icon" 
+type="image/png" 
+href="file:///C:/Users/new/Desktop/all%20niki/circle-cropped.png">
+ 
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+<div id="op">
+  <div class="main">
+      <div class="logo">
+          <img src="file:///C:/Users/new/Desktop/all%20niki/circle-cropped.png" alt="" width="73"/>
+      </div class="menu">
+      <div>
+      <ul>
+          <li><a class="web" href="About.html">About</a></li>
+          <li><a class="web" id="active" href="Contact.html">Contact</a></li>
+          <li><a class="web" href="SpeedHandsgaming.html">Home</a></li>
+      </ul>
+      </div>
+  </div>
+  
+  <head>
+  <link href="style.css" rel="stylesheet">
+  </head>
+      
+   <div id="section1">
+      <h1  id="che">
+           Contact
+      </h1>
+  </div>
+  </div>     
+ <br>
+ <div class="pari1">
+ <div class="cano">
+    <form>
+    <label>Name</label>
+    <input type="text" name="Username" placeholder="Enter Username" required>
+    </br>
+    <label>Email</label>
+    <input type="email" name="Email" placeholder="Enter Email" required >
+    </br>
+    <input type="checkbox" checked="checked"><span>Remember Me</span> 
+    </Br>
+    </form>
+</br>
+    <label>Message</label>
+    <textarea>
+    Enter Message
+</textarea>
+    </br>
+
+    <form id="bye" action="#">
+        <input type="submit" value="submit" />
+    </form>
+    </div>
+ </div>
+
+ <script>
+    var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
